@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<title>Lógica de desenvolvimento em Jquery</title>
+		<script src="../js/jquery/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript">
+			
+			$(document).ready(function(){
+			/*
+				$('h1').css("color","#f66"); // altera a propriedade CSS da TAG
+				$('h1').hide(); // oculta o elemento
+				$('h1').delay('1000'); // aplica um delay de 1000 milisegundos
+				$('h1').fadeIn("slow"); // aparecimento gradual do elemento
+				$('h1').text('Alterando o texto da ancora da TAG'); // altera a propriedade text do elemento
+			
+			
+				$('h1').css("color","#f66").hide().delay('1000').fadeIn("slow").text("Altera o texto da ancora da TAG"); // instruções encadeadas
+			
+				$('h1')
+					.css('color', '#f66')
+					.hide()
+					.delay('1000')
+					.fadeIn('slow')
+					.text('Alterando texto da ancora da TAG!')
+					.click(function(){ // Evento click
+						$('body').css("background","#C30")
+						$('h1').css("color","#fff");
+					});
+				*/
+				$('a').css({color:'red',display:'block'}); // alterando mais de uma propriedade CSS do elemento a
+
+				$('.link2').css("color","green");
+				$('#link3').css("color","black");
+				$('*').css("padding","10px");
+				$('h1, #link3').css("border-bottom","solid 3px blue");
+			});
+		</script>
+	</head>
+	<body>
+		<h1>Exemplo Jquery</h1>
+
+		<a href="#">Link 1</a>
+		<a href="#" class="link2">Link 2</a>
+		<a href="#" id="link3">Link 3</a>
+	</body>
+</html>

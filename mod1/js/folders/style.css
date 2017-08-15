@@ -1,0 +1,63 @@
+
+.ex1, .ex2{
+	width: 460px;
+	padding: 20px;
+	background: #1e90ff;
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+/*p,input{
+	width: 480px;
+	padding: 5px;
+	background: #000;
+	margin: 0 auto;
+	margin-top: 10px;
+	text-align: center;
+	color: #fff;
+	border: 5px solid #ccc;
+}*/
+
+form{
+	text-align: center;
+}
+
+label{
+	display: block;
+	margin: 10px 0;
+	padding: 10px;
+	background: #F8F8FF;
+}
+
+input, textarea{
+	padding: 5px;
+	width: 495px;
+}
+
+button{
+	width: 465px;
+	margin-top: 15px;
+}
+
+body{
+	text-align: center;
+	margin:0;
+}
+
+.ev1, .ev2, .ev3, button{
+	/*margin-left: 31.1%;*/
+	width: 495px;
+	background-color: #000;
+	color: #fff;
+	border: solid 5px;
+	border-color: #ccc;
+}
+
+.ev4{
+	background-color: #000;
+	color:#fff;
+	border: solid 5px;
+	border-color: #ccc;
+}
